@@ -1,0 +1,39 @@
+:root {
+   /* Colors */
+   --black: #000000;
+   --white: #ffffff;
+   --offblack: #2d3436;
+   --offwhite: #fefefe;
+   --reallylightgray: #fafafa;
+   --lightgray: #d3d3d3;
+   --mediumgray: #a8a8a8;
+   --darkgray: #545454;
+   --yellow: #ffe971;
+   --pink: #ff7171;
+   --lightgreen: #71ffcf;
+   --orange: #ff5500;
+
+
+   /* Typography scale */
+   --sans-serif: "Futura", "Roboto", sans-serif;
+   --header-desktopHD: 76px;
+   --header-laptop: 67px;
+   --header-tablet: 57px;
+   --header-mobile: 38px;
+   --sub-header-laptop: 29px;
+   --sub-header-tablet: 22px;
+   --sub-header-mobile: 18px;
+   --body-desktopHD: 18px;
+   --body-laptop: 18px;
+   --body-tablet: 18px;
+   --body-mobile: 16px;
+
+   /* Wrapper padding */
+   --wrapper-left-padding: 5%;
+   --wrapper-right-padding: 5%;
+
+   /* Section dividers */
+   --section-margin-mobile: 60px;
+   --section-margin-tablet: 100px;
+   --section-margin-desktop: 70px;
+}

@@ -1,0 +1,32 @@
+/***** MiRo standard media queries - 2018 *****/
+/**********************************************/
+
+/* MOBILE */
+@custom-media --xs-up (min-width: 321px);
+@custom-media --xs-down (max-width: 320px);
+
+/* LANDSCAPE/LARGE MOBILE */
+@custom-media --sm-up (min-width: 481px);
+@custom-media --sm-down (max-width: 480px);
+@custom-media --sm-only (width > 320px) and (width <= 480px);
+
+/* PORTRAIT/SMALL TABLET */
+@custom-media --md-up (min-width: 641px);
+@custom-media --md-down (max-width: 640px);
+@custom-media --md-only (width > 480px) and (width <= 640px);
+
+/* TABLET/LAPTOP/SMALL DESKTOP */
+@custom-media --lg-up (min-width: 801px);
+@custom-media --lg-down (max-width: 800px);
+@custom-media --lg-only (width > 640px) and (width <= 800px);
+
+/* DESKTOP */
+@custom-media --xl-up (min-width: 1025px);
+@custom-media --xl-down (max-width: 1024px);
+@custom-media --xl-only (width > 800px) and (width <= 1024px);
+
+/* HD/LARGE DESKTOP */
+@custom-media --hd-up (min-width: 1441px);
+@custom-media --hd-down (max-width: 1440px);
+@custom-media --hd-only (width > 1024px) and (width <= 1440px);
+

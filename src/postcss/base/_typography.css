@@ -1,0 +1,47 @@
+/***** TYPOGRAPHY *****/
+
+body {
+   font-family: var(--sans-serif);
+}
+
+@mixin header-typography {
+   font-size: var(--header-mobile);
+   @media (--md-up) {
+      font-size: var(--header-tablet);
+   }
+   @media (--xl-up) {
+      font-size: var(--header-laptop);
+   }
+   @media (--hd-up) {
+      font-size: var(--header-desktopHD);
+   }
+}
+
+@mixin body-typography {
+   font-size: var(--body-mobile);
+   @media (--md-up) {
+      font-size: var(--body-tablet);
+   }
+   @media (--xl-up) {
+      font-size: var(--body-laptop);
+   }
+   @media (--hd-up) {
+      font-size: var(--body-desktopHD);
+   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   @include header-typography;
+}
+
+p,
+a,
+div,
+span {
+   @include body-typography;
+}
